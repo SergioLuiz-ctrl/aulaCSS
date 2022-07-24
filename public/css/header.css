@@ -7,7 +7,7 @@ header .link-logo {
 }
 
 header nav ul {
-    padding: 0px;
+    padding: 0;
     text-align: center;
 }
 
@@ -39,5 +39,9 @@ header nav ul li:not(:last-child) {
         position: absolute;
         right: 2%;
         top: 18%;
+    }
+
+    .menu-professores{
+        top: 2%;
     }
 }

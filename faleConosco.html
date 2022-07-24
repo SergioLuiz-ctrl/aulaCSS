@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="public/css/devaria.css">
+    <link rel="stylesheet" href="public/css/footer.css">
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/fale-conosco.css">
 </head>
 
 <body>
@@ -25,26 +27,27 @@
         </nav>
     </header>
     <main>
-        <h1>Entre em contato com a Devaria</h1>
+        <h1 class="title text-center">Entre em contato com a Devaria</h1>
 
-        <h2>Preencha os campos para entrar em contato</h2>
-        <form action="index.html">
-            <p>
+        <h2 class="sub-title text-center">Preencha os campos para entrar em contato</h2>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+            <div >
                 <label>Nome:</label><input type="text" name="nome" maxlength="70">
-            </p>
-            <p>
+            </div>
+            <div>
                 <label>E-mail:</label><input type="text" name="email" maxlength="150">
-            </p>
-            <p>
+            </div>
+            <div>
                 <label>Comentarios:</label>
                 <textarea name="comentario" cols="50" rows="4"></textarea>
-            </p>
-            <p>
-                <label>Sexo:</label>
-                <input type="radio" name="sexo"><label>Feminino</label>
-                <input type="radio" name="sexo"><label>Masculino</label>
-            </p>
-            <p>
+            </div>
+            <div class="input-sexo">
+                <label>Sexo:
+                <input type="radio" name="sexo"><span>Feminino</span>
+                <input type="radio" name="sexo"><span>Masculino</span>
+            </label>
+            </div>
+            <div>
                 <label>Aonde você conheceu a Devaria</label>
                 <select name="conheceu">
                     <option selected>YouTube</option>
@@ -52,15 +55,15 @@
                     <option>Google</option>
                     <option>Outros</option>
                 </select>
-            </p>
-            <p>
+            </div>
+            <div>
                 <input type="checkbox" name="aceito" value="Aceito"/>
-                <label>Aceito receber notificações da Devaria</label>
-            </p>
-            <p>
+                <span>Aceito receber notificações da Devaria</span>
+            </div>
+            <div>
                 <input type="submit" name="enviar" value="Enviar"/>
                 <input type="reset" name="limpar" value="Limpar"/>
-            </p>
+            </div>
         </form>
     </main>
     <footer>

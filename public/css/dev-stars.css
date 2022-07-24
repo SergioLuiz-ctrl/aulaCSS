@@ -1,0 +1,39 @@
+/* Estilos pagina Dev Stars */
+
+.sub-title {
+    margin: 0 20px;
+}
+
+table{
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+table, tr, td, th{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.devstars{
+    display: flex;
+    margin-bottom: 20px;
+    width: 372px;
+    height: 514px;
+
+}
+
+@media screen and (min-width: 992px){
+    .devstars{
+        margin-bottom: 10px;
+        margin-left: 425px;
+        width: 994px;
+    }
+
+    table{
+        margin-left: 346px;
+        width: 639px;
+        height: 108px;
+    }
+
+}
